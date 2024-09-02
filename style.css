@@ -10,6 +10,11 @@ body
     display: flex;
     flex-direction: column;
 
+    background-image: linear-gradient(to bottom, #8bb2de, #4336aa);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
     gap: 20px;
 }
 
@@ -125,7 +130,6 @@ header h1
 
     padding: 20px;
 
-    background-image: linear-gradient(to right, #8bb2de, #4336aa);
 }
 
 .Week1 table
@@ -166,3 +170,74 @@ table tr th h1
     font-family: 'Courier New', Courier, monospace;
     
 }
+
+.match-card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(to right, #8bb2de, #4336aa);
+
+    color: white;
+
+    padding: 10px;
+    border-radius: 10px;
+    gap: 30px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.team1, .team2
+{
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+    font-size: 1em;
+}
+
+.team1
+{
+    display: flex;
+    justify-content: flex-end;
+
+    width: 25%;
+}
+
+.team2
+{
+    display: flex;
+    justify-content: flex-start;
+
+    width: 25%;
+}
+
+.team1 img, .team2 img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.score
+{
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+
+    width: 10%;
+}
+
+tr:not(:has(th)):nth-child(even) .match-card
+{
+    background-image: linear-gradient(to right, #8bb2de, #4336aa);
+    color: white;
+}
+
+tr:not(:has(th)):nth-child(odd) .match-card
+{
+    background-image: linear-gradient(to right, #8e8acb, #450a42);
+    color: white;
+}
+
