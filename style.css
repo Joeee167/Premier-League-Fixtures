@@ -120,7 +120,7 @@ header h1
     color: white;
 }
 
-.Week1
+.Week
 {
     display: flex;
     flex-direction: column;
@@ -132,7 +132,7 @@ header h1
 
 }
 
-.Week1 table
+.Week table
 {
     border-collapse: collapse;
     width: 80%;
@@ -240,4 +240,5 @@ tr:not(:has(th)):nth-child(odd) .match-card
     background-image: linear-gradient(to right, #8e8acb, #450a42);
     color: white;
 }
+
 
