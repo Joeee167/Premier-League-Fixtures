@@ -2,7 +2,7 @@
 - I am trying to apply what I learnt in HTML,CSS and JavaScript into a simple project which is premier league fixtures for all game weeks.
 
 # Acknowledgement
-Thanks to [@SamehWalidd](https://github.com/SamehWalidd) for their contributions to this project!
+- The silly gamed named  [@SamehWalidd](https://github.com/SamehWalidd) helped me a lot coming up with some ideas!
 
 
 # Contribution
